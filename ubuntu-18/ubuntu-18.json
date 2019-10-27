@@ -8,7 +8,7 @@
         "password":            "{{user `password`}}",
         "insecure_connection": "true",
   
-        "vm_name": "template_ubuntu18test",
+        "vm_name": "template_ubuntu1804",
         "datastore": "{{user `datastore`}}",
         "folder": "{{user `folder`}}",
         "host":     "{{user `host`}}",
@@ -32,8 +32,8 @@
   
         "network_card": "vmxnet3",
   
-        "iso_urls": "http://cdimage.ubuntu.com/releases/18.04/release/ubuntu-18.04.2-server-amd64.iso",
-        "iso_checksum": "a2cb36dc010d98ad9253ea5ad5a07fd6b409e3412c48f1860536970b073c98f5",
+        "iso_urls": "http://cdimage.ubuntu.com/ubuntu/releases/bionic/release/ubuntu-18.04.3-server-amd64.iso",
+        "iso_checksum": "7d8e0055d663bffa27c1718685085626cb59346e7626ba3d3f476322271f573e",
         "iso_checksum_type": "sha256",
 
         "floppy_files": [
